@@ -1,17 +1,15 @@
-import { useEffect } from 'react'
 import './App.css'
-import { useState } from 'react'
+import Header from './components/Header'
+import CategoryList from './components/CategoryList'
+import FeaturedJobs from './components/FeaturedJobs'
+import Footer from './components/Footer'
 function App() {
-  const [jobs, setJobs] = useState([]);
-  useEffect(()=>{
-    fetch('featured-jobs.json')
-    .then(res => res.json())
-    .then(data => setJobs(data))
-  }, [])
   return (
     <>
-      <h1>Largest Heading</h1>
-
+    <Header/>
+    <CategoryList/>
+    <FeaturedJobs/>
+    <Footer/>
     </>
   )
 }

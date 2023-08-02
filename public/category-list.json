@@ -1,0 +1,23 @@
+[
+    {
+      "categoryLogo": "../src/assets/Icons/accounts.png",
+      "categoryName": "Technology",
+      "jobsAvailable": 120
+    },
+    {
+      "categoryLogo": "../src/assets/Icons/design.png",
+      "categoryName": "Marketing",
+      "jobsAvailable": 80
+    },
+    {
+      "categoryLogo": "../src/assets/Icons/sales.png",
+      "categoryName": "Finance",
+      "jobsAvailable": 50
+    },
+    {
+      "categoryLogo": "../src/assets/Icons/engineering.png",
+      "categoryName": "Design",
+      "jobsAvailable": 60
+    }
+  ]
+  

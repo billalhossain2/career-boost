@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect } from 'react'
 import './App.css'
-
+import { useState } from 'react'
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [jobs, setJobs] = useState([]);
+  useEffect(()=>{
+    fetch('featured-jobs.json')
+    .then(res => res.json())
+    .then(data => setJobs(data))
+  }, [])
   return (
     <>
       <h1>Largest Heading</h1>
+
     </>
   )
 }

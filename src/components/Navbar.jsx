@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import {Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css';
 const Navbar = () => {
   return (
@@ -21,11 +22,16 @@ const Navbar = () => {
             <NavLink to="/blog">Blog</NavLink>
           </li>
         </ul>
-        <a href='#featured-jobs'>
+        <Link 
+        to='featured-jobs'
+        spy={true}
+        smooth={true}
+        duration={500}
+        >
         <button className="btn bg-[#7E90FE] text-white hover:bg-[#6172e4]">
           Start Applying
         </button>
-        </a>
+        </Link>
       </nav>
   )
 }

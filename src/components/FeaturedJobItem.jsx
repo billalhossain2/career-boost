@@ -1,5 +1,4 @@
-import React from 'react'
-
+import { Link } from "react-router-dom"
 const FeaturedJobItem = () => {
   return (
     <div class="card card-compact">
@@ -20,7 +19,9 @@ const FeaturedJobItem = () => {
       <span className="font-semibold text-[20px]"> Salary : 100K - 150K</span>
       </p>
       <div class="card-actions">
+        <Link to="/job-details">
         <button class="bg-[#7E90FE] hover:bg-[#596dee] text-white px-[16px] py-[8px] rounded-[5px] font-extrabold text-[20px]">View Details</button>
+        </Link>
       </div>
     </div>
   </div>

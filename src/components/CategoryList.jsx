@@ -7,7 +7,7 @@ const CategoryList = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="cards-container grid grid-cols-4 justify-between gap-5">
+      <div className="cards-container grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between gap-5">
         <CategoryItem/>
         <CategoryItem/>
         <CategoryItem/>

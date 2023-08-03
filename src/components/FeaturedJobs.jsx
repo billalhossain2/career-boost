@@ -1,7 +1,7 @@
 import FeaturedJobItem from "./FeaturedJobItem";
 const FeaturedJobs = () => {
   return (
-    <div className="max-w-[90%] mx-auto justify-between mb-32">
+    <div className="max-w-[90%] mx-auto justify-between mb-32 pt-10" id="featured-jobs">
       <h1 className="text-3xl font-extrabold mb-3 text-center">
         Featured Jobs
       </h1>
@@ -11,7 +11,7 @@ const FeaturedJobs = () => {
       </p>
 
       {/* card item  */}
-     <div className="featured-jobs-container grid grid-cols-2 gap-14">
+     <div className="featured-jobs-container grid lg:grid-cols-2 grid-cols-1 gap-14">
      <FeaturedJobItem/>
      <FeaturedJobItem/>
      <FeaturedJobItem/>

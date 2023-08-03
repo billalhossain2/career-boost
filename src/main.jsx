@@ -9,6 +9,8 @@ import Blog from './components/Blog.jsx'
 import AppliedJobs from './components/AppliedJobs.jsx'
 import JobDetails from './components/JobDetails.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import jobDetailsLoader from './loaders/jobDetailsLoader'
+import featuresLoader from './loaders/featuresLoader'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -17,7 +19,8 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Home/>
+        element:<Home/>,
+        loader: featuresLoader
       },
       {
         path:'/statistics',
@@ -32,8 +35,9 @@ const router = createBrowserRouter([
         element:<AppliedJobs/>
       },
       {
-        path:'/job-details',
-        element:<JobDetails/>
+        path:'/job-details/:detailId',
+        element:<JobDetails/>,
+        loader:jobDetailsLoader
       },
     ]
   }

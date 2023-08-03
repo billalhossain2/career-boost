@@ -1,0 +1,194 @@
+{
+    "features": [
+            {
+              "id": 1,
+              "companyLogo": "../src/assets/Logo/Airbnb.png",
+              "jobTitle": "Software Engineer",
+              "companyName": "ABC Technologies",
+              "jobType": "Onsite",
+              "location": "New York, NY",
+              "jobStatus": "Part Time",
+              "salary": "$80,000 - $100,000",
+              "jobDescription": "We are looking for a highly motivated and skilled software engineer to join our dynamic development team. As a software engineer at ABC Technologies, you will have the opportunity to work on exciting projects that impact millions of users. You will be responsible for designing, developing, and maintaining software applications with a focus on performance, scalability, and reliability. This role requires strong problem-solving skills and the ability to work effectively in a collaborative team environment. The ideal candidate should have a solid foundation in computer science principles and be proficient in programming languages such as Java, Python, or C++. A bachelor's degree in Computer Science or a related field is required, and 2+ years of experience in software development is preferred. If you are passionate about cutting-edge technology and want to contribute to the growth of a leading tech company, we would love to hear from you!",
+              "responsibility": "As a software engineer at ABC Technologies, you will be responsible for developing and maintaining software applications in accordance with project requirements. You will collaborate with team members to design and implement software solutions, participate in code reviews, and identify areas for improvement. Additionally, you will work closely with product managers and other stakeholders to understand user needs and translate them into technical requirements. Your responsibilities will also include troubleshooting and debugging issues, optimizing application performance, and ensuring code quality and best practices are followed. As part of the team, you will have the opportunity to contribute to the technical direction and decision-making process. We are looking for a team player with excellent communication skills and a passion for delivering high-quality software solutions to join our innovative and fast-paced environment.",
+              "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+              "experiences": "2+ years of experience in software development.",
+              "contactInfo": {
+                "email": "hr@abctech.com",
+                "phone": "(555) 123-4567",
+                "address": "123 Main Street, New York, NY 10001"
+              }
+            },
+            {
+              "id": 2,
+              "companyLogo": "../src/assets/Logo/apple.png",
+              "jobTitle": "Marketing Specialist",
+              "companyName": "XYZ Marketing Agency",
+              "jobType": "Remote",
+              "location": "Los Angeles, CA",
+              "jobStatus": "Full Time",
+              "salary": "$50,000 - $65,000",
+              "jobDescription": "Join our dynamic marketing team at XYZ Marketing Agency as a Marketing Specialist. As a Marketing Specialist, you will be responsible for planning and executing marketing campaigns across various digital channels, including social media, email marketing, and content creation. You will work closely with the marketing team to analyze campaign performance and provide insights to optimize results. The ideal candidate should have a passion for marketing, be creative, and have strong analytical skills. A bachelor's degree in Marketing or a related field is required, and at least 1 year of experience in marketing or a related role is preferred. If you are a self-starter with a proactive approach and want to be part of a collaborative and innovative marketing team, we would love to hear from you!",
+              "responsibility": "As a Marketing Specialist at XYZ Marketing Agency, you will be responsible for developing and implementing marketing strategies to achieve company objectives. Your responsibilities will include creating engaging content for social media, email newsletters, and other digital platforms. You will analyze marketing data and metrics to assess campaign performance and provide recommendations for improvement. Additionally, you will collaborate with the design team to create visually appealing graphics and visuals that align with brand guidelines. Your role will also involve coordinating with clients and other stakeholders to ensure marketing initiatives are aligned with their objectives. We are looking for a detail-oriented and organized individual with a strong understanding of marketing principles and a passion for staying up-to-date with industry trends.",
+              "educationalRequirements": "Bachelor's degree in Marketing or related field.",
+              "experiences": "1+ year of experience in marketing or related role.",
+              "contactInfo": {
+                "email": "hr@xyzmarketing.com",
+                "phone": "(555) 987-6543",
+                "address": "456 Market Street, Los Angeles, CA 90001"
+              }
+            },
+            {
+              "id": 3,
+              "companyLogo": "../src/assets/Logo/google.png",
+              "jobTitle": "Data Analyst",
+              "companyName": "DataTech Solutions",
+              "jobType": "Onsite",
+              "location": "San Francisco, CA",
+              "jobStatus": "Part Time",
+              "salary": "$70,000 - $90,000",
+              "jobDescription": "Are you passionate about data analysis and providing valuable insights? Join DataTech Solutions as a Data Analyst and play a key role in driving data-driven decision making. As a Data Analyst, you will be responsible for collecting, analyzing, and interpreting complex data sets to support business objectives. You will work closely with cross-functional teams to identify opportunities for process improvement and provide actionable recommendations based on data analysis. The ideal candidate should have a strong foundation in statistics and data analysis tools such as Python, R, or SQL. A bachelor's degree in Statistics, Mathematics, or a related field is required, and 2+ years of experience in data analysis is preferred. If you are a problem solver with a keen eye for detail and want to be part of a dynamic team, we would love to hear from you!",
+              "responsibility": "As a Data Analyst at DataTech Solutions, you will be responsible for collecting and cleaning data from various sources, conducting exploratory data analysis, and creating visualizations to communicate findings effectively. Your responsibilities will also include building and maintaining dashboards and reports to track key performance indicators and deliver insights to stakeholders. You will work with stakeholders to define analytical requirements and develop data models to support business decisions. Additionally, you will collaborate with data engineers to optimize data pipelines and ensure data integrity. Your role will involve staying up-to-date with industry best practices and trends in data analysis and using data to tell compelling stories that drive actionable insights.",
+              "educationalRequirements": "Bachelor's degree in Statistics, Mathematics, or related field.",
+              "experiences": "2+ years of experience in data analysis.",
+              "contactInfo": {
+                "email": "hr@datatech.com",
+                "phone": "(555) 789-0123",
+                "address": "789 Data Avenue, San Francisco, CA 94101"
+              }
+            },
+            {
+              "id": 4,
+              "companyLogo": "../src/assets/Logo/microsoft.png",
+              "jobTitle": "Graphic Designer",
+              "companyName": "DesignCo",
+              "jobType": "Remote",
+              "location": "Seattle, WA",
+              "jobStatus": "Part Time",
+              "salary": "$55,000 - $70,000",
+              "jobDescription": "DesignCo is seeking a talented and creative Graphic Designer to join our design team. As a Graphic Designer, you will be responsible for creating visually stunning graphics and illustrations for marketing materials, websites, and various digital platforms. You will collaborate with the marketing team and other designers to bring ideas to life and ensure brand consistency. The ideal candidate should be proficient in graphic design software such as Adobe Illustrator and Photoshop and have a strong portfolio showcasing their design skills. A bachelor's degree in Graphic Design or a related field is preferred, and 1+ year of experience in graphic design is a plus. If you have a passion for design and love working in a collaborative environment, we would love to hear from you!",
+              "responsibility": "As a Graphic Designer at DesignCo, you will be responsible for creating visually engaging graphics and illustrations that communicate the brand's message effectively. Your responsibilities will include brainstorming and conceptualizing design ideas, developing creative solutions, and iterating on design concepts based on feedback. You will collaborate with the marketing team to ensure that design materials align with marketing objectives and brand guidelines. Additionally, you will stay up-to-date with design trends and industry best practices to bring fresh and innovative ideas to the team. Your role will also involve assisting in the production of marketing materials and ensuring the quality of the final deliverables. We are looking for a detail-oriented and self-motivated designer with a strong eye for aesthetics and a passion for creating impactful visual experiences.",
+              "educationalRequirements": "Bachelor's degree in Graphic Design or related field (preferred).",
+              "experiences": "1+ year of experience in graphic design.",
+              "contactInfo": {
+                "email": "hr@designco.com",
+                "phone": "(555) 555-5555",
+                "address": "123 Design Street, Seattle, WA 98101"
+              }
+            },
+            {
+              "id": 5,
+              "companyLogo": "../src/assets/Logo/netflix.png",
+              "jobTitle": "Financial Analyst",
+              "companyName": "FinanceCorp",
+              "jobType": "Onsite",
+              "location": "Chicago, IL",
+              "jobStatus": "Full Time",
+              "salary": "$60,000 - $80,000",
+              "jobDescription": "Are you passionate about finance and data analysis? Join FinanceCorp as a Financial Analyst and help drive financial insights for our growing company. As a Financial Analyst, you will be responsible for conducting financial analysis, creating reports, and supporting budgeting and forecasting efforts. You will work closely with finance and accounting teams to analyze financial data and provide valuable recommendations to support business decisions. The ideal candidate should have strong analytical and problem-solving skills, be proficient in financial modeling, and have a solid understanding of financial principles. A bachelor's degree in Finance, Accounting, or a related field is required, and 2+ years of experience in financial analysis or a related role is preferred. If you are a detail-oriented financial professional with a passion for data-driven decision making, we would love to hear from you!",
+              "responsibility": "As a Financial Analyst at FinanceCorp, you will be responsible for analyzing financial data and trends to assist in budgeting and financial planning. Your responsibilities will also include preparing financial reports, conducting variance analysis, and assisting in the development of financial models. You will collaborate with cross-functional teams to gather and analyze financial data for decision support. Additionally, you will assist in preparing financial presentations and reports for management and stakeholders. Your role will involve staying updated with industry trends and best practices in financial analysis to ensure accurate and up-to-date financial insights. We are looking for a detail-oriented individual with strong quantitative skills and the ability to effectively communicate financial analysis to non-financial stakeholders.",
+              "educationalRequirements": "Bachelor's degree in Finance, Accounting, or related field.",
+              "experiences": "2+ years of experience in financial analysis or related role.",
+              "contactInfo": {
+                "email": "hr@financecorp.com",
+                "phone": "(555) 222-3333",
+                "address": "456 Finance Ave, Chicago, IL 60601"
+              }
+            },
+            {
+              "id": 6,
+              "companyLogo": "../src/assets/Logo/paypal.png",
+              "jobTitle": "Customer Support Representative",
+              "companyName": "SupportPro",
+              "jobType": "Remote",
+              "location": "Houston, TX",
+              "jobStatus": "Part Time",
+              "salary": "$40,000 - $50,000",
+              "jobDescription": "SupportPro is hiring a Customer Support Representative to provide exceptional customer service to our valued customers. As a Customer Support Representative, you will be the first point of contact for customers, addressing their inquiries and resolving issues via phone, email, and chat. You will maintain detailed records of customer interactions and escalate complex issues to the appropriate teams. The ideal candidate should have excellent communication skills, be empathetic, and have a strong problem-solving ability. A high school diploma or equivalent is required, and previous customer support experience is preferred. If you are a people-oriented individual with a passion for helping others, we would love to hear from you!",
+              "responsibility": "As a Customer Support Representative at SupportPro, you will be responsible for providing timely and professional customer service to ensure a positive customer experience. Your responsibilities will include resolving customer inquiries and technical issues, documenting customer interactions, and escalating complex cases to the appropriate departments. You will collaborate with other support team members to share knowledge and ensure consistent service delivery. Additionally, you will stay updated with product and service knowledge to provide accurate information to customers. Your role will involve managing customer expectations and delivering solutions that align with company policies and procedures. We are looking for a customer-focused individual with strong communication skills and the ability to work in a fast-paced environment to deliver exceptional support to our valued customers.",
+              "educationalRequirements": "High school diploma or equivalent (some college preferred).",
+              "experiences": "1+ year of customer support experience.",
+              "contactInfo": {
+                "email": "hr@supportpro.com",
+                "phone": "(555) 444-4444",
+                "address": "123 Support Street, Houston, TX 77001"
+              }
+            },
+            {
+              "id": 7,
+              "companyLogo": "../src/assets/Logo/spotify.png",
+              "jobTitle": "Human Resources Manager",
+              "companyName": "PeopleFirst Corp",
+              "jobType": "Onsite",
+              "location": "Boston, MA",
+              "jobStatus": "Full Time",
+              "salary": "$70,000 - $90,000",
+              "jobDescription": "Join PeopleFirst Corp as a Human Resources Manager and play a critical role in our people-centric organization. As an HR Manager, you will lead and oversee human resources operations, including recruitment, employee relations, training programs, and HR compliance. You will collaborate with department heads to develop HR strategies that support business objectives and foster a positive work environment. The ideal candidate should have strong leadership skills, be knowledgeable in HR laws and regulations, and have a track record of implementing successful HR initiatives. A bachelor's degree in Human Resources or a related field is required, and 3+ years of experience in HR management is preferred. If you are a strategic thinker with a passion for developing and supporting talent, we would love to hear from you!",
+              "responsibility": "As a Human Resources Manager at PeopleFirst Corp, you will be responsible for leading and managing HR functions to ensure a high-performing and engaged workforce. Your responsibilities will include overseeing the recruitment and onboarding process, conducting performance evaluations, and implementing employee development programs. You will collaborate with department heads and executives to identify staffing needs and align HR strategies with organizational goals. Additionally, you will handle employee relations issues, conduct investigations, and ensure compliance with HR policies and legal regulations. Your role will involve providing guidance and support to managers and employees on HR-related matters. We are looking for an experienced HR professional with excellent communication and problem-solving skills to lead our HR team and contribute to the success of our organization.",
+              "educationalRequirements": "Bachelor's degree in Human Resources or related field.",
+              "experiences": "3+ years of experience in HR management.",
+              "contactInfo": {
+                "email": "hr@peoplefirst.com",
+                "phone": "(555) 678-5678",
+                "address": "123 HR Avenue, Boston, MA 02101"
+              }
+            },
+            {
+              "id": 8,
+              "companyLogo": "../src/assets/Logo/tesla.png",
+              "jobTitle": "Sales Manager",
+              "companyName": "SalesPro",
+              "jobType": "Remote",
+              "location": "Dallas, TX",
+              "jobStatus": "Part Time",
+              "salary": "$80,000 - $100,000",
+              "jobDescription": "SalesPro is seeking a dynamic and results-driven Sales Manager to lead our sales team. As a Sales Manager, you will be responsible for setting sales targets, developing sales strategies, and motivating the team to achieve and exceed sales goals. You will collaborate with the marketing department to develop lead generation campaigns and work closely with sales representatives to provide guidance and support. The ideal candidate should have a proven track record of successful sales management, strong leadership skills, and a deep understanding of sales principles. A bachelor's degree in Business Administration or a related field is required, and 5+ years of experience in sales management is preferred. If you are a proactive and enthusiastic sales professional with a passion for building high-performing teams, we would love to hear from you!",
+              "responsibility": "As a Sales Manager at SalesPro, you will be responsible for leading and guiding the sales team to achieve revenue targets and business objectives. Your responsibilities will include setting sales goals and quotas, monitoring team performance, and providing regular sales forecasts and reports to upper management. You will collaborate with marketing to develop sales strategies and promotional campaigns. Additionally, you will recruit, train, and onboard new sales representatives, providing ongoing coaching and mentoring to improve sales skills. Your role will involve building and maintaining strong relationships with key clients and prospects to grow the company's client base. We are looking for a results-oriented individual with excellent communication and negotiation skills to drive sales growth and lead the team to success.",
+              "educationalRequirements": "Bachelor's degree in Business Administration or related field.",
+              "experiences": "5+ years of experience in sales management.",
+              "contactInfo": {
+                "email": "hr@salespro.com",
+                "phone": "(555) 765-4321",
+                "address": "456 Sales Street, Dallas, TX 75001"
+              }
+            },
+            {
+              "id": 9,
+              "companyLogo": "../src/assets/Logo/uber.png",
+              "jobTitle": "Product Manager",
+              "companyName": "ProductTech",
+              "jobType": "Onsite",
+              "location": "San Diego, CA",
+              "jobStatus": "fullTime",
+              "salary": "$90,000 - $110,000",
+              "jobDescription": "Join ProductTech as a Product Manager and be at the forefront of developing innovative products. As a Product Manager, you will be responsible for the entire product lifecycle, from ideation and market research to product launch and post-launch analysis. You will work closely with cross-functional teams, including engineering, design, and marketing, to ensure the successful development and delivery of products that meet customer needs. The ideal candidate should have a strong background in product management, excellent project management skills, and a passion for delivering customer-focused solutions. A bachelor's degree in Business, Engineering, or a related field is required, and 4+ years of experience in product management is preferred. If you are a strategic thinker with a creative mindset and a desire to make an impact, we would love to hear from you!",
+              "responsibility": "As a Product Manager at ProductTech, you will be responsible for defining product vision and strategy, conducting market research and competitive analysis, and gathering customer feedback to identify market opportunities. Your responsibilities will also include creating and managing product roadmaps, setting priorities, and coordinating with development teams to ensure timely product delivery. You will work with design teams to create intuitive user experiences and collaborate with marketing to develop product launch plans and promotional materials. Additionally, you will track product performance and customer feedback post-launch to make data-driven product improvements. Your role will involve staying updated with industry trends and emerging technologies to drive product innovation. We are looking for a proactive and customer-focused individual with strong leadership and communication skills to drive the success of our product portfolio.",
+              "educationalRequirements": "Bachelor's degree in Business, Engineering, or related field.",
+              "experiences": "4+ years of experience in product management.",
+              "contactInfo": {
+                "email": "hr@producttech.com",
+                "phone": "(555) 321-0987",
+                "address": "789 Product Avenue, San Diego, CA 92101"
+              }
+            },
+            {
+              "id": 10,
+              "companyLogo": "../src/assets/Logo/netflix.png",
+              "jobTitle": "Data Scientist",
+              "companyName": "DataTech Solutions",
+              "jobType": "Remote",
+              "location": "New York City",
+              "jobStatus": "fullTime",
+              "salary": "$100,000 - $120,000",
+              "jobDescription": "Are you passionate about data and analytics? Join DataTech Solutions as a Data Scientist and work on cutting-edge data projects. As a Data Scientist, you will analyze complex data sets, build predictive models, and derive insights to support business decisions. You will work closely with cross-functional teams to identify data-driven opportunities and provide actionable recommendations. The ideal candidate should have a strong background in data analysis, machine learning, and programming languages such as Python or R. A bachelor's degree in Computer Science, Statistics, or a related field is required, and 3+ years of experience in data science or a related role is preferred. If you are a problem solver with a passion for transforming data into valuable insights, we would love to hear from you!",
+              "responsibility": "As a Data Scientist at DataTech Solutions, you will be responsible for collecting, cleaning, and preprocessing data from various sources to prepare it for analysis. Your responsibilities will also include using statistical techniques and machine learning algorithms to build predictive models and identify patterns and trends in the data. You will collaborate with data engineers to ensure the availability and quality of data for analysis. Additionally, you will communicate your findings to stakeholders and provide data-driven insights to support business strategies. Your role will involve staying updated with the latest advancements in data science and contributing to the development of data science tools and methodologies. We are looking for a detail-oriented and innovative individual with strong analytical and problem-solving skills to join our data-driven team.",
+              "educationalRequirements": "Bachelor's degree in Computer Science, Statistics, or related field.",
+              "experiences": "3+ years of experience in data science or related role.",
+              "contactInfo": {
+                "email": "johnkits@gmail.com",
+                "phone": "(555) 876-5432",
+                "address": "Messasusates New York"
+              }
+            }       
+    ]
+}

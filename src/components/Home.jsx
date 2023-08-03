@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     <Banner/>
-    <CategoryList/>
+    <CategoryList />
     <FeaturedJobs/>
     </>
   )

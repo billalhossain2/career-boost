@@ -11,6 +11,7 @@ import JobDetails from './components/JobDetails.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import jobDetailsLoader from './loaders/jobDetailsLoader'
 import featuresLoader from './loaders/featuresLoader'
+import assignmentDataLoader from './loaders/assignmentDataLoader'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -24,7 +25,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/statistics',
-        element:<Statistics/>
+        element:<Statistics/>,
+        loader:assignmentDataLoader,
       },
       {
         path:'/blog',

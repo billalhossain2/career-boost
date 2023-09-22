@@ -1,6 +1,5 @@
 const CategoryItem = ({category}) => {
   const {categoryLogo, categoryName, jobsAvailable} = category;
-  console.log(categoryName)
   return (
     <div className="card card-compact border-[1px] border-solid border-[#dad6d6] p-3">
       <div>

@@ -23,7 +23,7 @@ const FeaturedJobItem = ({job}) => {
           <span className="font-semibold text-[20px]"> Salary : {salary}</span>
         </p>
         <div className="card-actions">
-          <Link to={`/job-details/${id}`}>
+          <Link to={`/main/job-details/${id}`}>
             <button className="bg-[#7E90FE] hover:bg-[#596dee] text-white px-[16px] py-[8px] rounded-[5px] font-extrabold text-[20px]">
               View Details
             </button>

@@ -1,8 +1,28 @@
+import { useEffect, useState } from "react";
 import useFetch from "../../../Hooks/useFetch";
 import FeaturedJobItem from "./FeaturedJobItem";
 const FeaturedJobs = () => {
-  const data = useFetch('./jobs.json');
-  const {allData:jobs} = data || {};
+  const [jobs, setJobs] = useState([])
+  const [allJobs, setAllJobs] = useState([])
+
+
+  useEffect(()=>{
+    fetch('jobs.json')
+    .then(res => res.json())
+    .then(data => {
+      const loadedAllJobs = data.features;
+      setAllJobs(loadedAllJobs)
+
+      const slicedJobs = data.features.slice(0, 4);
+      setJobs(slicedJobs)
+    })
+    .catch(error => console.log(error.message))
+  }, [])
+
+  const handleShowAllJobs = ()=>{
+    setJobs(allJobs)
+  }
+
   return (
     <div
       className="max-w-[90%] mx-auto justify-between mb-32 pt-10"
@@ -19,11 +39,11 @@ const FeaturedJobs = () => {
       {/* card item  */}
       <div className="featured-jobs-container grid lg:grid-cols-2 grid-cols-1 gap-14">
         {
-          jobs?.features?.map(job => <FeaturedJobItem key={job.id} job={job}></FeaturedJobItem>)
+          jobs?.map(job => <FeaturedJobItem key={job.id} job={job}></FeaturedJobItem>)
         }
       </div>
       <div className="flex justify-center">
-        <button className="btn bg-[#7E90FE] hover:bg-[#7E90FE] text-white font-extrabold text-[20px] mt-10">
+        <button onClick={handleShowAllJobs} className={`${jobs.length > 4 ? 'hidden' : ''} btn bg-[#7E90FE] hover:bg-[#4e5bad] text-white font-extrabold text-[20px] mt-10`}>
           Show All Jobs
         </button>
       </div>

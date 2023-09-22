@@ -6,6 +6,7 @@ const AppliedJobs = () => {
   useTitle("Applied Jobs")
  const appliedJobsIds = getAppliedJobsIds();
  const [jobsApplied, setJobsApplied] = useState([])
+ const [filterStatus, setFilterStatus] = useState('All')
 
  useEffect(()=>{
   fetch('../../jobs.json')
@@ -17,6 +18,11 @@ const AppliedJobs = () => {
   })
  }, [])
 
+ const handleFilter = (ev)=>{
+  const filteredTxt = ev.target.value;
+  setFilterStatus(filteredTxt)
+ }
+
   return (
     <div className='max-w-[90%] mx-auto mb-32'>
       <h1 className='font-extrabold text-3xl py-10 text-center mb-20'>Applied Jobs</h1>
@@ -24,16 +30,25 @@ const AppliedJobs = () => {
         !jobsApplied.length && <h1 className="text-center font-bold text-xl text-red-300">You didn't apply to any job yet !</h1>
       }
       <div className='mb-8 flex justify-end font-semibold text-[20px]'>
-        <select name="" id="">
-          <option defaultValue="Filter" disabled>Filter</option>
+        <select className="px-5 py-2 border-2 border-solid border-[#6172e4] rounded-md outline-none" name="" id="" onChange={handleFilter}>
+          <option defaultValue="All">All</option>
           <option value="Remote">Remote</option>
           <option value="Onsite">Onsite</option>
-          <option value="All">All</option>
+          {/* <option value="Part Time">Part Time</option>
+          <option value="Full Time">Full Time</option> */}
         </select>
       </div>
       <div className="applied-jobs-container space-y-10">
         {
-          jobsApplied.map(appliedJobData => <AppliedJobItem key={appliedJobData.id} appliedJobData={appliedJobData} jobsApplied={jobsApplied} setJobsApplied={setJobsApplied}></AppliedJobItem>)
+          jobsApplied
+          .filter(jobItem => {
+            if(filterStatus === jobItem.jobType){
+              return jobItem;
+            }else if(filterStatus === 'All'){
+              return jobItem;
+            }
+          })
+          .map(appliedJobData => <AppliedJobItem key={appliedJobData.id} appliedJobData={appliedJobData} jobsApplied={jobsApplied} setJobsApplied={setJobsApplied}></AppliedJobItem>)
         }
       </div>
     </div>

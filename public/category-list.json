@@ -1,21 +1,21 @@
 [
     {
-      "categoryLogo": "../src/assets/Icons/accounts.png",
+      "categoryLogo": "https://i.ibb.co/NtJsxPv/technology.png",
       "categoryName": "Technology",
       "jobsAvailable": 120
     },
     {
-      "categoryLogo": "../src/assets/Icons/design.png",
+      "categoryLogo": "https://i.ibb.co/FHYZg5q/marketing.png",
       "categoryName": "Marketing",
       "jobsAvailable": 80
     },
     {
-      "categoryLogo": "../src/assets/Icons/sales.png",
+      "categoryLogo": "https://i.ibb.co/BK8Wxnk/finance.png",
       "categoryName": "Finance",
       "jobsAvailable": 50
     },
     {
-      "categoryLogo": "../src/assets/Icons/engineering.png",
+      "categoryLogo": "https://i.ibb.co/P4Tbbhg/design.png",
       "categoryName": "Design",
       "jobsAvailable": 60
     }

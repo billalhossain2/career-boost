@@ -1,12 +1,9 @@
-import { useEffect, useState } from "react";
-import CategoryItem from "./categoryItem";
+import useFetch from "../../../Hooks/useFetch";
+import CategoryItem from "./CategoryItem";
+
 const CategoryList = () => {
-  const [categories, setCategories] = useState([]);
-  useEffect(()=>{
-    fetch('category-list.json')
-    .then(res => res.json())
-    .then(data => setCategories(data))
-  }, [])
+  const data = useFetch('./category-list.json');
+  const {allData:categories} = data;
   return (
     <section className="max-w-[90%] mx-auto mb-40">
       <h1 className="text-center font-extrabold text-3xl mb-3">Job Category List</h1>
@@ -16,7 +13,7 @@ const CategoryList = () => {
       </p>
       <div className="cards-container grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between gap-5">
         {
-          categories.map(category => <CategoryItem key={category.id} category={category}/>)
+          categories.map((category, index) => <CategoryItem key={index} category={category}></CategoryItem>)
         }
       </div>
     </section>
